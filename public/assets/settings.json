@@ -1,0 +1,45 @@
+{
+
+  "content": [
+    {
+      "headline": "ABOUT1",
+      "title": "ABOUT",
+      "color": "#0F528C",
+      "img": "/assets/dot0.png",
+      "bgcolor":"#F2BB16",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "more": "More text in ABOUT kkk"
+    },
+    {
+      "headline": "WHAT",
+   "title": "WHAT",
+   "color": "#2182BF",
+   "img": "/assets/dot1.png",
+   "bgcolor":"#8C2218",
+   "description":" Lorem Ipsum is simply dummy text of the printing and typesetting industry ",
+   "more": "More text in WHAT"
+    },
+    
+    {
+      "headline": "CONTACT",
+     "title": "CONTACT",
+     "color": "#D9AD29",
+     "img": "/assets/dot2.png",
+     "bgcolor":"#F27F1B",
+     "description": " Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+     "more": "More text in CONTACT"
+    }
+  ],
+
+  "footer":[
+
+    {
+      "name":"LARS GREGERSEN",
+      "phone":"123456",
+      "mail":"k@p.dk"
+
+    }
+
+  ]
+
+}

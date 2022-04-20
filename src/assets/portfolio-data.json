@@ -1,0 +1,23 @@
+{
+  "cards": [
+    {
+      "img": "assets/home-img-light.png",
+      "name": "Graphic portrait",
+      "description": "Lorem Ipsum has been here.",
+      "filter": "graphic"
+    },
+    {
+      "img": "assets/home-img-light.png",
+      "name": "logo",
+      "description": "Lorem Ipsum has been here.",
+      "filter": "graphic"
+    },
+    {
+      "img": "assets/home-img-light.png",
+      "name": "cake",
+      "description": "Lorem Ipsum has been here.",
+      "filter": "graphic"
+    }
+  ]
+
+}

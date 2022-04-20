@@ -1,0 +1,119 @@
+$fontFamily: Verdana, Geneva, Tahoma, sans-serif;
+
+$colors: ("head0",#0F528C),("head1", #2182BF),("head2",#D9AD29);
+
+.topImgContainer {
+  
+width:100%;
+
+img{
+
+  width:100%;
+  height:auto;
+  max-height: 768px;
+  -o-object-fit: cover; 
+  object-fit: cover;
+}
+}
+
+#mainHeadlineContainer{
+
+  position:absolute;
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-top: calc(.5em + .5vw);
+  left:50%;
+  transform: translate(-50%);
+
+}
+
+.subHeadlineContainer{
+
+margin-left:calc(1.5em + 1.5vw);
+margin-right:calc(1.5em + 1.5vw);
+
+}
+
+#headlines{
+
+  font-family: $fontFamily;
+  font-weight: bold;
+  font-size: calc(1em + 1vw);
+  width:calc(7em + 7vw);
+
+}
+
+@each $color in $colors {
+
+  .#{nth($color,1)} {
+    color: nth($color,2);
+  }
+
+}
+
+.description{
+
+ color:#999;
+ font-family: $fontFamily;
+font-size:calc(.5em + .5vw);
+max-width:200px;
+overflow-wrap: break-word;
+line-height:95%;
+
+
+}
+
+.footer{
+
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:.5rem;
+  margin-bottom: calc(.4em + .4vw);
+  color:#ccc;
+  font-family: $fontFamily;
+  font-size:calc(.5em + .5vw);
+ text-align: center;
+}
+
+.modal{
+
+  position: absolute;
+  width:calc(15em + 15vw);
+  height:calc(15em + 15vw);
+  left:50%;
+  top:50%;
+  transform:translate(-50%, -50%);
+  background-color: #FFF80D;
+  box-shadow: #666 1px, 1px, 10px;
+
+}
+
+.closeContainer{
+
+position: relative;
+width:100%;
+float:left;
+
+div{
+
+  position: relative;
+  display:block;
+  float:right;
+  width:30px;
+  height:30px;
+  margin:calc(.3em + .3vw);
+  cursor: pointer;
+}
+
+}
+
+.moretext{
+
+  position: relative;
+  margin:calc(.3em + .3vw);
+  width:100%;
+  float:left;
+
+}
+ 
